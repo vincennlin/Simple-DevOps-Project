@@ -77,3 +77,7 @@ type "esc + enter" to exit insert mode
 ```sh
   source .bash_profile
 ```
+11. Restart Jenkins
+```sh
+  systemctl start jenkins
+```
