@@ -64,6 +64,8 @@ ln -s /opt/tomcat/bin/shutdown.sh /usr/local/bin/tomcatdown
 tomcatdown
 tomcatup
 ```
-username: tomcat
-password: s3cret
 ```sh
+	<user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/>
+	<user username="deployer" password="deployer" roles="manager-script"/>
+	<user username="tomcat" password="s3cret" roles="manager-gui"/>
+```
